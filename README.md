@@ -68,3 +68,17 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+{/* <Router>
+<Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} />
+<Alert alert={alert}/>
+<div className="container my-3">
+<Switch>
+      <Route exact path="/about">
+        <About/>
+      </Route>
+      <Route exact path="/">
+        <TextForm showAlert={showAlert} heading="Enter the text to analyze below" mode={mode}/>
+      </Route>
+</Switch>
+</div>
+</Router> */}
